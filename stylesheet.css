@@ -32,12 +32,6 @@ img{
     gap:10px;
     margin:10px;
 }
-.grid-container-2-columns{
-    display:grid;
-    text-align:center;
-    gap:10px;
-    margin:10px;
-}
 nav > a{
     grid-template-rows:auto;
     border:3px orange dashed;
@@ -55,11 +49,6 @@ nav > a:active{
     background-color:palevioletred;
     border:pink dashed 3px;
 }
-@media screen and (min-width:768px) {
-    .grid-container-2-columns{
-        grid-template-columns:2fr 1fr;
-    }
-}
 @media screen and (min-width:1280px) {
     body{
         max-width:1280px;
@@ -68,4 +57,5 @@ nav > a:active{
     .grid-container-3-columns{
         grid-template-columns:1fr 1fr 1fr;
     } 
+
 }
