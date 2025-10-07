@@ -24,7 +24,7 @@ nav{
     border-bottom:3px orange solid;
 }
 img{
-    width:400px;
+    width:100%;
 }
 .grid-container-3-columns{
     display:grid;
@@ -59,3 +59,4 @@ nav > a:active{
     } 
 
 }
+
