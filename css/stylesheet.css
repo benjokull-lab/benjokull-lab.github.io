@@ -120,10 +120,14 @@ body{
         display:block;
         width:100%;
     }
+    .box{
+        width:100%;
+    }
 }
 @keyframes move-box {
     100%{
         background-color:#ffb22c;
         color:#edab31
     }
+
 }
